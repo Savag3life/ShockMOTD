@@ -11,8 +11,8 @@ ShockMOTD provides the features you want, without bloat. Simple yet feature pack
 - Automatic centering system. No more space padding by hand.
 - Does __not require__ [SVCommonsLib](https://supremeventures.ca/discord)! But you should still check us out :p
 
-![motd-1](https://github.com/Savag3life/ShockAirHeads/blob/main/assets/motd-1.png)
-![motd-2](https://github.com/Savag3life/ShockAirHeads/blob/main/assets/motd-2.png)
+![motd-1](https://github.com/Savag3life/ShockAirHeads/blob/main/assets/motd-1.png?raw=true)
+![motd-2](https://github.com/Savag3life/ShockAirHeads/blob/main/assets/motd-2.png?raw=true)
 ![motd-hover](https://github.com/Savag3life/ShockMOTD/blob/main/assets/hover-effect.gif)
 
 ## Config Example
