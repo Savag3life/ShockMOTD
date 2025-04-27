@@ -1,4 +1,4 @@
-# Shock AirHeads
+# Shock MOTD
 ShockMOTD provides the features you want, without bloat. Simple yet feature packed was the goal, adding tools we all want like automatic centering using `<centered>` tags, Left-side text, and full-bar width hover text and more!
 
 ## Features
