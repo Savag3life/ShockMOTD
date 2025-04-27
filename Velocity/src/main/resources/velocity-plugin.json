@@ -1,0 +1,6 @@
+{
+  "id": "SVCommonsLib",
+  "main": "not.savage.motd.velocity.VelocityMOTDPlugin",
+  "version": "1.0.0",
+  "author": "Savag3life"
+}

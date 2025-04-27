@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>not.savage</groupId>
+    <artifactId>ShockMOTD</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <skipTests>true</skipTests>
+        <maven.test.skip>true</maven.test.skip>
+        <lombok.version>1.18.34</lombok.version>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+    </properties>
+
+    <modules>
+        <module>MOTD</module>
+        <module>Bukkit</module>
+        <module>Velocity</module>
+        <module>Package</module>
+    </modules>
+
+    <developers>
+        <developer>
+            <name>Savage</name>
+            <email>jacob@supremeventures.ca</email>
+            <url>https://supremeventures.ca</url>
+        </developer>
+    </developers>
+
+    <dependencies>
+        <dependency> <!-- Annotations -->
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency> <!-- Configurate Dependencies -->
+            <groupId>org.spongepowered</groupId>
+            <artifactId>configurate-core</artifactId>
+            <version>4.1.2</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.spongepowered</groupId>
+            <artifactId>configurate-yaml</artifactId>
+            <version>4.1.2</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>
