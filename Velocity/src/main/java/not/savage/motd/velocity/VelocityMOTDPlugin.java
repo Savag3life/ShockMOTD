@@ -18,7 +18,7 @@ import java.nio.file.Path;
 @Plugin(
         id = "ShockMOTD",
         name = "ShockMOTD",
-        version = "1.0.0",
+        version = "1.0.1",
         url = "https://supremeventures.ca/discord",
         description = "Powerful, Light-Weight MOTD plugin.",
         authors = {
