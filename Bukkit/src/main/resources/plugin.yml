@@ -1,5 +1,5 @@
 main: not.savage.motd.bukkit.BukkitMOTDPlugin
-version: 1.0.0-DEV
+version: 1.0.0
 name: ShockMOTD
 author: Savage
 description: Simple, Lightweight MOTD plugin for Paper & Velocity.
